@@ -1,0 +1,290 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body
+{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right:0px ;
+    padding-top: 0px ;
+    background-color:#fafafa;
+}
+.navbar{
+    margin-top: 0px;
+    width: 1520px;
+    background-color:#1f2d30;
+    height: 45px;
+    display: flex;
+}
+.empty
+{
+    height: 45px;
+    width: 50%;
+}
+.info
+{
+    height: 45px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.phone a{
+    text-decoration: none;
+    color: #fafafa;
+    margin: 20px;
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+}
+.phone a:hover{
+    color:black;
+}
+.information{
+    position: relative;
+    right: 20px;
+    top: 3px;
+    color:white;
+    font-size: 12px;
+    margin-right :20px ;
+}
+.information p:hover{
+    color: #fcc236;
+    cursor: pointer;
+}
+.phone{
+    background-color:#fcc236;
+    height: 45px;
+    width: 162px;
+    margin-left: 20px;
+}
+/*
+.navbar{
+    height: 45px;
+    background-color: #1f2d30;
+    display: flex;
+}
+.empty{
+    height: 45px;
+    width: 50%;
+}
+.info{
+    height: 45px;
+    width: 50%;
+    display: flex;
+}
+.information{
+    height: 45px;
+    width: 50%;
+    position: relative;
+    left: 150px;
+    bottom: -2px;
+    font-size: 13px;
+    color: white;
+    margin-left: 30px;
+}
+.information p:hover
+{
+    color: #fcc236;
+    cursor: pointer;
+}
+.phone{
+    height: 45px;
+    width: 164px;
+    background-color: #fcc236;
+    margin-left: 10px;
+}
+.phone a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 22px;
+    top: 12px;
+}
+.phone a:hover{
+    color: black;
+}*/
+.navbar2
+{
+    height: 130px;
+    width: 1520px;
+    background-color: white;
+    display: flex;
+    
+}
+.imageb{
+    height: 130px;
+    width: 250px;
+}
+.image{
+    height: 130px;
+    width: 170px;
+    margin-left: 170px;
+}
+img
+{
+    height: 42px;
+    width: 158px;
+    position: relative;
+    top: 44px;
+}
+.menu a
+{
+    text-decoration: none;
+    display: inline;
+    margin-right: 30px;
+    height: 130px;
+    position: relative;
+    top: 56px;
+    color: black;
+    font-size: 14px;
+}
+.menu{
+    margin-left: 240px;
+    
+}
+.search{
+    height: 130px;
+    width: 170px;
+    margin-left: 225px;
+}
+.searchbar {
+    width: 170px;
+    height: 26px;
+    position: relative;
+    top: 54px;
+    background-color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    border-radius: 5px;
+}
+.searchbar:focus
+{
+    outline: none;
+}
+.logo
+{
+    font-size: 12px;
+    position: relative;
+    top: 20%;
+    left: 2px;
+    color: rgb(185, 182, 182);
+}
+.main{
+    height: 625px;
+    width: 1520px;
+    background-image: url("55e1bfccdd0895fd6d8b4671.webp");
+    background-size: cover;
+    background-color: #1f2d30;
+    margin-top: -40px;
+}
+.main h4{
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
+.main h1{
+    width: 60%;
+    color: white;
+    font-size: 66px;
+    position: relative;
+    top:130px;
+    left:20%;
+}
+.main p
+{
+    width: 40%;  
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top:110px;
+    left:32%
+}
+.main a{
+    position: relative;
+    top: 25%;
+    left: 43%;
+    text-decoration: none;
+    height: 45px;
+    width: 167px;
+    background-color: #fcc236;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph
+{
+    height: 450px;
+    width: 1170px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+strong{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+span{
+    color: #fcc236; 
+}
+.para1{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 27%;
+    margin-top: 25px;
+    font-family:open sans;
+}
+.para2
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 27%;
+    font-family: open sans;
+}
+.e{
+    margin-right: 130px;
+    margin-top: 40px;
+}
+
+.work{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.paras{
+    height: 454px;
+    width: 470px;
+    font: 14px , open sans;
+    color: #1f2d30;
+    margin-left: 15px;
+}
+
+
+.love {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+.mission {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.im{
+    background-image: url("1.jpg");
+    background-size: cover;
+    height: 454px;
+    width: 800px;
+    margin-left: 150px;
+    background-color: #fcc236;
+}
+
