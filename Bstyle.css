@@ -1,0 +1,222 @@
+/* General Styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1f2d30;
+    height: 45px;
+    display: flex;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #fafafa;
+    margin: 20px;
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+}
+
+.phone a:hover {
+    color: black;
+}
+
+.information {
+    color: white;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.information p:hover {
+    color: #fcc236;
+    cursor: pointer;
+}
+
+.phone {
+    background-color: #fcc236;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar 2 Styles */
+.navbar2 {
+    height: 130px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.imageb, .image {
+    height: 130px;
+    width: 250px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 14px;
+}
+
+.menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    height: 26px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* Main Section Styles */
+.main {
+    height: 625px;
+    background-image: url("55e1bfccdd0895fd6d8b4671.webp");
+    background-size: cover;
+    background-color: #1f2d30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 66px;
+}
+
+.main h4 {
+    font-size: 30px;
+}
+
+.main p {
+    font-size: 16px;
+}
+
+.main a {
+    text-decoration: none;
+    height: 45px;
+    width: 167px;
+    background-color: #fcc236;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Paragraph and Content Styles */
+.paragraph {
+    width: 90%;
+    margin: 80px auto;
+}
+
+strong {
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+    color: #fcc236; 
+}
+
+.para1, .para2 {
+    text-align: center;
+    margin: 0 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Product Section */
+.products {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#arra {
+    margin: 0 auto;
+}
+
+.whatsapp {
+    background-image: url("walogo.png");
+    background-size: cover;
+    width: 650px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.types {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.types1 {
+    width: 300px;
+    height: 300px;
+    background-color: #fcc236;
+}
+
+#lightpink {
+    background-image: url("HIMALAYAN LIGHT PINK SALT.jpg");
+    background-size: cover;
+}
+
+#darkpink {
+    background-image: url("HIMALAYAN DARK PINK SALT.jpg");
+    background-size: cover;
+}
+
+#crystalwhite {
+    background-image: url("HIMALAYAN CRYSTAL WHITE SALT.jpg");
+    background-size: cover;
+}
+
+#black {
+    background-image: url("HIMALAYAN BLACK SALT.jpg");
+    background-size: cover;
+}
+
+/* Footer Styles */
+.footer1 {
+    background-color: #1f2d30;
+    padding: 50px 0;
+}
+
+.footer2 {
+    background-color: #fcc236;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
