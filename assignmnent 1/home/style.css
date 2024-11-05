@@ -1,0 +1,726 @@
+*{
+    font-family: 'Open Sans', sans-serif  /*Helvetica*/;
+    border: border-box;
+}
+
+body
+{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right:0px ;
+    padding-top: 0px ;
+    background-color:#fafafa;
+}
+
+.content{
+    position: relative;
+    left: 20px;
+    right: 200px;
+}
+
+.navbar{
+    margin-top: 0px;
+    width: 1520px;
+    background-color:#1f2d30;
+    height: 45px;
+    display: flex;
+}
+
+.empty
+{
+    height: 45px;
+    width: 50%;
+}
+
+.info
+{
+    height: 45px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.phone a{
+    text-decoration: none;
+    color: #fafafa;
+    margin: 20px;
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+}
+
+.phone a:hover{
+    color:black;
+}
+
+.information{
+    position: relative;
+    right: 20px;
+    top: 3px;
+    color:white;
+    font-size: 12px;
+    margin-right :20px ;
+}
+
+.information p:hover{
+    color: #fcc236;
+    cursor: pointer;
+}
+
+.phone{
+    background-color:#fcc236;
+    height: 45px;
+    width: 162px;
+    margin-left: 20px;
+}
+/*
+.navbar{
+    height: 45px;
+    background-color: #1f2d30;
+    display: flex;
+}
+.empty{
+    height: 45px;
+    width: 50%;
+}
+.info{
+    height: 45px;
+    width: 50%;
+    display: flex;
+}
+.information{
+    height: 45px;
+    width: 50%;
+    position: relative;
+    left: 150px;
+    bottom: -2px;
+    font-size: 13px;
+    color: white;
+    margin-left: 30px;
+}
+.information p:hover
+{
+    color: #fcc236;
+    cursor: pointer;
+}
+.phone{
+    height: 45px;
+    width: 164px;
+    background-color: #fcc236;
+    margin-left: 10px;
+}
+.phone a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 22px;
+    top: 12px;
+}
+.phone a:hover{
+    color: black;
+}*/
+.navbar2
+{
+    height: 130px;
+    width: 1520px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.imageb{
+    height: 130px;
+    width: 250px;
+}
+
+.image{
+    height: 130px;
+    width: 170px;
+    margin-left: 170px;
+}
+
+img
+{
+    height: 42px;
+    width: 158px;
+    position: relative;
+    top: 44px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    display: inline;
+    margin-right: 30px;
+    height: 130px;
+    position: relative;
+    top: 56px;
+    color: black;
+    font-size: 14px;
+}
+
+.menu{
+    margin-left: 240px;
+    
+}
+
+.search{
+    height: 130px;
+    width: 170px;
+    margin-left: 225px;
+}
+
+.searchbar {
+    width: 170px;
+    height: 26px;
+    position: relative;
+    top: 54px;
+    background-color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    border-radius: 5px;
+}
+
+.searchbar:focus
+{
+    outline: none;
+}
+
+.logo
+{
+    font-size: 12px;
+    position: relative;
+    top: 20%;
+    left: 2px;
+    color: rgb(185, 182, 182);
+}
+
+.main{
+    height: 625px;
+    width: 1550px;
+    background-image: url("55e1bfccdd0895fd6d8b4671.webp");
+    background-size: cover;
+    background-color: #1f2d30;
+    margin-top: -40px;
+}
+
+.main h4{
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
+
+.main h1{
+    width: 60%;
+    color: white;
+    font-size: 66px;
+    position: relative;
+    top:130px;
+    left:20%;
+}
+
+.main p
+{
+    width: 40%;  
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top:110px;
+    left:32%
+}
+
+.main a{
+    position: relative;
+    top: 25%;
+    left: 43%;
+    text-decoration: none;
+    height: 45px;
+    width: 167px;
+    background-color: #fcc236;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph
+{
+    height: 450px;
+    width: 1170px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+strong{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+
+span{
+    color: #fcc236; 
+}
+
+.para1{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 27%;
+    margin-top: 25px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.para2
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 27%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.e{
+    margin-right: 130px;
+    margin-top: 40px;
+}
+
+.work{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.paras{
+    height: 454px;
+    width: 470px;
+    font: 14px , 'Open Sans', sans-serif;
+    color: #1f2d30;
+    margin-left: 15px;
+}
+
+.love {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.mission {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.im{
+    background-image: url("1.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 750px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background-color: #fcc236;
+}
+
+.products{
+    padding: 0px;
+    margin: 0px;
+    height: 470px;
+    width: 1500px;
+    font: "open sans" , sans-serif;
+}
+
+.products h2{
+    position: relative;
+    right: 420px;
+}
+
+#arra{
+    height: 144px;
+    width: 650px;
+    position: relative;
+    left: 390px;
+    text-align: center;
+}
+
+.products p{
+    margin-left: 10PX;
+    text-align: center;
+}
+
+.whatsapp{
+    height:200px;
+    width:650px;
+    background-image: url(walogo.png);
+    background-size: cover;
+    position: relative;
+    left: 400px;
+}
+
+.types{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.types1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: #fcc236;
+    position: relative;
+    left: 120px;
+}
+
+#lightpink{
+    background-image: url(HIMALAYAN\ LIGHT\ PINK\ SALT.jpg);
+    background-size: cover;
+}
+
+#darkpink{
+    background-image: url(HIMALAYAN\ DARK\ PINK\ SALT.jpg);
+    background-size: cover;
+}
+
+#crystalwhite{
+    background-image: url(HIMALAYAN\ CRYSTAL\ WHITE\ SALT.jpg);
+    background-size: cover;
+}
+
+#black{
+    background-image: url(HIMALAYAN\ BLACK\ SALT.jpg);
+    background-size: cover;
+}
+
+.name1{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#description{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#n1{
+   margin-left: 50px; 
+}
+
+.length{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.len1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#edible{
+    background-image: url(Himalayan\ Edible\ Salt.png);
+    background-size: cover;
+}
+
+#white{
+    background-image: url(Himalayan\ White\ Salt\ 3-5cm\ Chunks.jpg);
+    background-size: cover;
+}
+
+#lightpinkL{
+    background-image: url(Himalayan\ Light\ Pink\ Salt\ 3-5\ Cm\ Chunks.jpg);
+    background-size: cover;
+}
+
+#darkpinkL{
+    background-image: url(Himalayan-Dark-Pink-Salt-3-5-Cm-Chunks.jpg);
+    background-size: cover;
+}
+
+.label1{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#label{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#L1{
+    margin-left: 50px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.shapes{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.shape1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#animal{
+    background-image: url(Animal\ Lick\ Salt.jpg);
+    background-size: cover;
+}
+
+#tiles{
+    background-image: url(Himalayan\ Salt\ Tiles.jpg);
+    background-size: cover;
+}
+
+#heart{
+    background-image: url(Heart\ Shape\ Himalayan\ Salt\ Lamp.jpg);
+    background-size: cover;
+}
+
+#usb{
+    background-image: url(Usb\ Shape\ Lamp.jpg);
+    background-size: cover;
+}
+
+.tag1{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#tag{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#t1{
+    margin-left: 50px;
+}
+
+.end{
+    height: 470px;
+    width: 1500px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.palta{
+    width: 420px;
+    background-color: aqua;
+    background-image: url(Pak\ Salt.jpg);
+    background-size: cover;
+    position: relative;
+    right: 10px;
+    left: 5px;
+}
+
+.lec{
+    width: 840px;
+}
+
+.lec h2{
+    position: relative;
+    left: -167px;
+}
+
+.lec p{
+    position: relative;
+    left: 70px;
+    top: -43px;
+    overflow: hidden;
+    /*word-wrap: break-word;*/
+}
+
+.lec p1{
+    position: relative;
+    top: -62px;
+    left: 70px;
+}
+
+.lec p2{
+    position: relative;
+    top: -50px;
+    left: 70px;
+}
+
+#wa{
+    height: 124px;
+    width: 400px;
+    position: relative;
+    left: 70px;
+    bottom: 22px;
+    background-image: url(walogo.png);
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+.empty{
+    width: 1500px;
+    height: 150px;
+}
+
+.last{
+    width: 1500px;
+    height: 240px;
+}
+
+.last p{
+    height: 70px;
+    width: 750px;
+    text-align: center;
+    position: relative;
+    left: 380px;
+    right: 50px;
+    top: -30px;
+}
+
+.social{
+    width: 750px;
+    height: 60px;
+    position: relative;
+    left: 390px;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.s1{
+    width: 60px;
+    height: 60px; 
+}
+
+#fb{
+    background-image: url(facebook.png);
+    background-size: cover;
+}
+
+#insta{
+    background-image: url(instagram.png);
+    background-size: cover;
+}
+
+.final{
+    height: 180px;
+    width: 1500px;
+}
+
+.final img{
+    height: 150px;
+    width: 375px;
+    position: relative;
+    right: 0px;
+    left: 1100px;
+}
+
+.footer1{
+    height: 160px;
+    width: 1500px;
+    background-color: #1f2d30;
+}
+
+.rec{
+    height: 50px;
+    width: 1200px;
+    position: relative;
+    top: 50px;
+    left: 136px;
+    display: flex;
+    justify-content: center;
+}
+
+.rec1{
+    height: 50px;
+    width: 240px;
+    color: white;
+}
+
+.rec1 p{
+    height: 24px;
+    width: 150px;
+    position: relative;
+    left: 55px;
+    bottom: 20px;
+}
+
+.loc{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.ea{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.ph{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-radius: 50%; 
+}
+
+.footer2{
+    width: 1500px;
+    height: 70px;
+    background-color: #fcc236;
+}
+
+.footer2 p{
+    position: relative;
+    text-align: center;
+    top: 4px;
+}
+
+.footer2 strong{
+    position: relative;
+    text-align: center;
+    left: 670px;
+    font-size: 14px;
+}
+
