@@ -1,0 +1,356 @@
+
+
+
+*{
+    font-family: 'Open Sans', sans-serif  /*Helvetica*/;
+    border: border-box;
+}
+
+.mainpr{
+    height: 625px;
+    width: 1500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bgAbout.jpeg");
+    background-size: cover;
+    background-color: #1f2d30;
+    margin-top: -40px;
+}
+
+.mainpr h4{
+    width: 40%;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    left: 32%;
+}
+
+
+.productspr{
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    width: 1500px;
+    font: "open sans" , sans-serif;
+}
+
+.productspr h2{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.productspr span {
+    color: #fcc236;
+}
+
+#arrapr{
+    height: 144px;
+    width: 650px;
+    position: relative;
+    left: 410px;
+    text-align: center;
+}
+
+.prdpr h2{
+    text-align: center;
+}
+
+.typesp{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.types1p{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: #fcc236;
+    position: relative;
+    left: 120px;
+}
+
+#lightpinkp{
+    background-image: url(/images/HIMALAYAN\ LIGHT\ PINK\ SALT.jpg);
+    background-size: cover;
+}
+
+#darkpinkp{
+    background-image: url(/images/HIMALAYAN\ DARK\ PINK\ SALT.jpg);
+    background-size: cover;
+}
+
+#crystalwhitep{
+    background-image: url(/images/HIMALAYAN\ CRYSTAL\ WHITE\ SALT.jpg);
+    background-size: cover;
+}
+
+#blackp{
+    background-image: url(/images/HIMALAYAN\ BLACK\ SALT.jpg);
+    background-size: cover;
+}
+
+.name1p{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#descriptionp{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#n1p{
+   margin-left: 50px; 
+}
+
+.lengthp{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.len1p{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#ediblep{
+    background-image: url(/images/Himalayan\ Edible\ Salt.png);
+    background-size: cover;
+}
+
+#whitep{
+    background-image: url(/images/Himalayan\ White\ Salt\ 3-5cm\ Chunks.jpg);
+    background-size: cover;
+}
+
+#lightpinkLp{
+    background-image: url(/images/Himalayan\ Light\ Pink\ Salt\ 3-5\ Cm\ Chunks.jpg);
+    background-size: cover;
+}
+
+#darkpinkLp{
+    background-image: url(/images/Himalayan-Dark-Pink-Salt-3-5-Cm-Chunks.jpg);
+    background-size: cover;
+}
+
+.label1p{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#labelp{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#L1p{
+    margin-left: 50px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.shapesp{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.shape1p{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#animalp{
+    background-image: url(/images/Animal\ Lick\ Salt.jpg);
+    background-size: cover;
+}
+
+#tilesp{
+    background-image: url(/images/Himalayan\ Salt\ Tiles.jpg);
+    background-size: cover;
+}
+
+#heartp{
+    background-image: url(/images/Heart\ Shape\ Himalayan\ Salt\ Lamp.jpg);
+    background-size: cover;
+}
+
+#usbp{
+    background-image: url(/images/Usb\ Shape\ Lamp.jpg);
+    background-size: cover;
+}
+
+.tag1p{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#tagp{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+#t1p{
+    margin-left: 50px;
+}
+
+
+
+.bestp{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.best1p{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#glassp{
+    background-image: url(/images/Himalayan\ Salt\ Glass.jpg);
+    background-size: cover;
+}
+
+#firep{
+    background-image: url(../images/Himalayan\ Salt\ Beautiful\ Fire\ Bowl.jpg);
+    background-size: cover;
+}
+
+#bathp{
+    background-image: url(../images/Bath\ Salts.jpg);
+    background-size: cover;
+}
+
+#ironp{
+    background-image: url(../images/Himalayan\ Salt\ Iron\ Basket.jpg);
+    background-size: cover;
+}
+
+#ughp{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+.ugh1{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+
+#U1{
+    margin-left: 50px;
+}
+
+
+
+.pk{
+    width: 1500px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.pk1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#salad{
+    background-image: url(../images/Himalayan\ Salt\ Salad\ Bowl.jpg);
+    background-size: cover;
+}
+
+#lampsalt{
+    background-image: url(../images/Lamp\ Salt.jpg);
+    background-size: cover;
+}
+
+#dill{
+    background-image: url(../images/Heart\ Shape\ Himalayan\ Salt\ Lamp.jpg);
+    background-size: cover;
+}
+
+#gol{
+    background-image: url(../images/Usb\ Shape\ Lamp.jpg);
+    background-size: cover;
+}
+
+#pasta{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-left: 110px;
+}
+
+.pasta1{
+    height: 45px;
+    width: 300px;
+    background-color:#fafafa;
+    margin-left: 70px;
+    text-align: center;
+}
+
+
+#PS1{
+    margin-left: 50px;
+}
