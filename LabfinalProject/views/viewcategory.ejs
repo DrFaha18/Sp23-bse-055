@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered List with Yellow and Black Theme</title>
+  <style>
+    .category-list {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px; 
+    }
+
+    .category-list h2{
+      color: yellow;
+    }
+    .category-list ul {
+      list-style-type: none; /* Remove default bullet points */
+      padding: 0; /* Remove padding */
+    }
+
+    .category-list li {
+      margin-bottom: 10px; /* Add spacing between list items */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="category-list">
+    <h2>Categories</h2>
+    <ul>
+      <% categories.forEach((category, index) => { %>
+        <li><%= index + 1 %>. <%= category.name %></li>
+      <% }); %>
+    </ul>
+  </div>
+
+
+
+</body>
+</html>
