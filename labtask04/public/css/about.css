@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.mainab{
+    height: 625px;
+    width: 1550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bgAbout.jpeg");
+    background-size: cover;
+    background-color: #1f2d30;
+    margin-top: -40px;
+}
+
+.mainab h4{
+    width: 40%;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 25%;
+    left: 41%;
+}
+
+
+.mainab a{
+    position: relative;
+    top: 20%;
+    left: 43%;
+    text-decoration: none;
+    height: 45px;
+    width: 167px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.productsab{
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    width: 1500px;
+    font: "open sans" , sans-serif;
+}
+
+.productsab h2{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.productsab span {
+    color: #fcc236;
+}
+
+#arraab{
+    height: 144px;
+    width: 650px;
+    position: relative;
+    left: 410px;
+    text-align: center;
+}
+
+.productsab p{
+    margin-left: 10PX;
+    text-align: center;
+}
+
+.whatsappab{
+    height:200px;
+    width:650px;
+    background-image: url(/images/walogo.png);
+    background-size: cover;
+    position: relative;
+    left: 400px;
+}
+
+
+.workab{
+    height: 430px;
+    width: 1300px;
+    display: flex;
+    margin-left: 57px;
+    top: 30px;
+}
+
+.parasab{
+    height: 454px;
+    width: 470px;
+    font: 14px , 'Open Sans', sans-serif;
+    color: #1f2d30;
+    margin-left: 15px;
+}
+
+.loveab {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.missionab {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.imab{
+    background-image: url("/images/1.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 750px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background-color: #fcc236;
+}
+
+
+
+
+

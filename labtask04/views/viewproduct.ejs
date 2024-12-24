@@ -1,0 +1,94 @@
+<div class="form-container">
+  <h1>All Products</h1>
+
+  <!-- Search Bar, Filter, and Sort -->
+  <form action="/admin/productsA/view" method="GET" style="margin-bottom: 20px;">
+    <!-- Search Bar -->
+    <input
+      type="text"
+      name="search"
+      placeholder="Search products..."
+      value="<%= searchQuery %>"
+      style="padding: 8px; font-size: 16px; margin-right: 10px;"
+    />
+   <!-- Filter Dropdown -->
+   <select name="filter" style="padding: 8px; font-size: 16px; margin-right: 10px;">
+    <option value="">Filter by Category</option>
+    <% categories.forEach(categoryName => { %>
+      <option value="<%= categoryName %>" <% if (filterCategory === categoryName) { %> selected <% } %>>
+        <%= categoryName.charAt(0).toUpperCase() + categoryName.slice(1) %>
+      </option>
+    <% }); %>
+  </select>
+  
+    <select name="sort" style="padding: 8px; font-size: 16px; margin-right: 10px;">
+      <option value="name" <% if (sortBy === 'name') { %> selected <% } %>>Sort by Name</option>
+      <option value="price_asc" <% if (sortBy === 'price_asc') { %> selected <% } %>>Price: Low to High</option>
+      <option value="price_desc" <% if (sortBy === 'price_desc') { %> selected <% } %>>Price: High to Low</option>
+    </select>
+
+    <button type="submit" style="padding: 8px; font-size: 16px;">Apply</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% if (products && products.length > 0) { %>
+        <% products.forEach(product => { %>
+          <tr>
+            <td><%= product.id %></td>
+            <td>
+              <img
+                src="/uploads/<%= product.image %>"
+                alt="<%= product.name %>"
+                style="width: 70px; height: 45px; margin-top: -82px;"
+              />
+            </td>
+            <td><%= product.name %></td>
+            <td><%= product.price %></td>
+            <td>
+              <form action="/admin/productsA/delete/<%= product._id %>" method="POST" style="display: inline;">
+                <button type="submit">Delete</button>
+              </form>
+              <form action="/admin/productsA/edit/<%= product._id %>" method="POST" style="display: inline;">
+                <button type="submit">Edit</button>
+              </form>
+            </td>
+          </tr>
+        <% }); %>
+      <% } else { %>
+        <tr>
+          <td colspan="5">No products found.</td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+
+  <% if (totalPages > 1) { %>
+    <div style="text-align: center; margin-top: 20px;">
+      <ul style="display: inline-block; padding-left: 0; margin-bottom: 0; list-style: none;">
+        <li style="display: inline; margin: 0 5px;">
+          <a href="?page=1" style="display: inline-block; padding: 8px 16px;">First</a>
+        </li>
+        <% for (let page = 1; page <= totalPages; page++) { %>
+          <li style="display: inline; margin: 0 5px;">
+            <a href="?page=<%= page %>" style="display: inline-block; padding: 8px 16px;">
+              <%= page %>
+            </a>
+          </li>
+        <% } %>
+        <li style="display: inline; margin: 0 5px;">
+          <a href="?page=<%= totalPages %>" style="display: inline-block; padding: 8px 16px;">Last</a>
+        </li>
+      </ul>
+    </div>
+  <% } %>
+</div>
